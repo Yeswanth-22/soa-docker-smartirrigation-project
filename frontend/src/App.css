@@ -1,0 +1,78 @@
+
+.page-container {
+  padding-top: 36px;
+  padding-bottom: 24px;
+}
+
+.page-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.page-heading .MuiTypography-h4 {
+  color: #193b27;
+  letter-spacing: -0.8px;
+}
+
+.page-container .MuiButton-root {
+  text-transform: none;
+  font-weight: 600;
+  border-radius: 9px;
+  padding: 9px 18px;
+}
+
+.page-container .MuiButton-contained {
+  box-shadow: none;
+}
+
+.page-container .MuiButton-contained:hover {
+  box-shadow: 0 4px 12px rgba(35, 122, 72, 0.18);
+}
+
+.page-container .MuiTextField-root .MuiOutlinedInput-root {
+  border-radius: 9px;
+}
+
+.page-container .MuiTableCell-head {
+  color: #54705c;
+  font-weight: 700;
+  background: #f3f8f3;
+  white-space: nowrap;
+}
+
+.page-container .MuiTableCell-root {
+  padding: 14px 16px;
+}
+
+.footer-text {
+  text-align: center;
+  color: #87958a;
+  font-size: 12px !important;
+  padding-top: 8px;
+  padding-bottom: 12px;
+}
+
+@media (max-width: 600px) {
+  .page-container {
+    padding-top: 24px;
+    padding-left: 14px !important;
+    padding-right: 14px !important;
+  }
+
+  .page-heading {
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 22px;
+  }
+
+  .page-heading .MuiTypography-h4 {
+    font-size: 27px;
+  }
+
+  .page-container .MuiTableCell-root {
+    padding: 12px;
+  }
+}
