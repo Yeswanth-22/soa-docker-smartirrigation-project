@@ -21,7 +21,7 @@ import com.klef.soa.docker.service.SmartZoneService;
 
 import jakarta.validation.Valid;
 
-@CrossOrigin("*")
+@CrossOrigin(origins = "*")
 @RequestMapping("/smart")
 @RestController
 public class SmartIrrigationZoneController {
